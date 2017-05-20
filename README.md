@@ -1,4 +1,4 @@
-# Separation Database Queries
+# Separation Database Queries OOP
 Separation Database Queries
 
 Sepearation database queries, jest to koncepcja odseparowania zapytań do bazy danych od kodu źródłowego programu. Same zapytania do bazy danych odbywają się w tradycyjny sposób za pomącą PDO. Koncepcja polega na wytworzeniu większej przejrzystości kodu i łatwiejszego dostępu do zapytań w celu ułatwienia zmieniania ich w późniejszej fazie rozwoju programu. Zastosowano tutaj Traits z PHP 5.4 Które jest dołączane do klasy samego zapytania. W traits jest przetwarzane całe zapytanie i wysyłane do bazy danych z klasy znajdującego się samego zapytania. Pozbywamy się w ten sposób zbędnej ilości kodu przez dołączanie traits do każdej klasy zapytań. Ruch zapytań odbywa się w szybszy sposób.
