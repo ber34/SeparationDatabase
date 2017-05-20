@@ -20,9 +20,6 @@ require_once(dirname(__FILE__) . '/lib/Autoload.php');
     $url = new UrlClass();        
             
       if($sessia->IdSesionUserGet()){
-               $tabKarty   = array();
-               $tabTronfy  = array();
-               $tabPunkty  = array();
 
            include_once(dirname(__FILE__) . '/template/zalogowani.php'); 
          // echo "<br>Zalogowany<br>";
